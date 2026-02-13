@@ -156,6 +156,9 @@ export default function FinalNote() {
               <h1 className="font-handwriting text-2xl sm:text-3xl md:text-4xl text-transparent bg-clip-text bg-gradient-to-r from-amber-700 via-rose-600 to-pink-600">
                 My Dearest {name || "Love"}
               </h1>
+              <h1 className="font-handwriting text-2xl sm:text-3xl md:text-4xl text-transparent bg-clip-text bg-gradient-to-r from-amber-700 via-rose-600 to-pink-600">
+                  Happy Valentine's Day
+              </h1>
 
               <div className="flex items-center justify-center gap-2">
                 <div className="h-px w-8 sm:w-12 bg-gradient-to-r from-transparent via-amber-400/50 to-transparent" />
@@ -211,7 +214,7 @@ export default function FinalNote() {
               </div>
 
               <p className="font-handwriting text-xl sm:text-2xl md:text-3xl text-transparent bg-clip-text bg-gradient-to-r from-rose-600 to-pink-600">
-                Forever Yours
+                Forever Yours Anjuu....
               </p>
 
               <motion.div
@@ -223,7 +226,7 @@ export default function FinalNote() {
               >
                 <Sparkles className="w-3 h-3 sm:w-4 sm:h-4 text-pink-400/60" />
                 <span className="font-serif text-xs sm:text-sm text-gray-500 italic">
-                  Valentine's Day {new Date().getFullYear()}
+                  Happy Valentine's Day
                 </span>
               </motion.div>
             </motion.div>
@@ -264,7 +267,6 @@ export default function FinalNote() {
           >
             Happy Valentine's Day ♡
           </motion.p>
-          
           <p className="text-xs sm:text-sm text-gray-500 italic">
             Made with love, just for you
           </p>

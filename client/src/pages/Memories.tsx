@@ -76,52 +76,74 @@ export default function Memories() {
   const displayMemories = (memories && memories.length > 0) ? memories : [
     {
       id: 1,
-      url: "https://images.unsplash.com/photo-1516589178581-6cd7833ae3b2?w=800&q=80",
+      url: "../images/anjali1.jpeg",
       type: "image",
-      caption: "The way you smile",
+      caption: "My Beautiful Princess",
       date: "Always",
       rotation: -2
     },
     {
       id: 2,
-      url: "https://images.unsplash.com/photo-1518199266791-5375a83190b7?w=800&q=80",
+      url: "../images/delhimirror.jpeg",
       type: "image",
-      caption: "Beautiful moments",
-      date: "Spring 2023",
+      caption: "Unforgetable moments",
+      date: "Delhi 2026",
       rotation: 3
     },
     {
       id: 3,
-      url: "https://images.unsplash.com/photo-1529333166437-7750a6dd5a70?w=800&q=80",
+      url: "../images/diwali.jpeg",
       type: "image",
-      caption: "Never letting go",
-      date: "Forever",
+      caption: "One of the endless proposals",
+      date: "Diwali 2024",
       rotation: -4
     },
     {
       id: 4,
-      url: "https://images.unsplash.com/photo-1518199266791-5375a83190b7?w=800&q=80",
+      url: "../images/kissingflowes.jpeg",
       type: "image",
-      caption: "Chasing sunsets",
-      date: "Summer Vacation",
+      caption: "Romantic gateways",
+      date: "Forever",
       rotation: 2
     },
     {
       id: 5,
-      url: "https://images.unsplash.com/photo-1529333166437-7750a6dd5a70?w=800&q=80",
+      url: "../images/flowersmell.jpeg",
       type: "image",
-      caption: "Surprises",
+      caption: "Blossoming Love",
       date: "Your Birthday",
       rotation: 5
     },
     {
       id: 6,
-      url: "https://images.unsplash.com/photo-1516589178581-6cd7833ae3b2?w=800&q=80",
+      url: "../images/smile.jpeg",
       type: "image",
-      caption: "Coffee dates",
-      date: "Every Weekend",
+      caption: "The way you smiles",
+      date: "",
       rotation: -3
-    }
+    },
+    {
+      id: 7,
+      url: "../images/diwalisang.jpeg",
+      type: "image",
+      caption: "Your presence lights up my world",
+      date: "",
+      rotation: 5
+    },
+    {
+      id: 8,
+      url: "../images/beautiful.jpeg",
+      type: "image",
+      caption: "The most beautiful lady!!",
+      rotation: 5
+    },
+    {
+      id: 9,
+      url: "../images/fest.jpeg",
+      type: "image",
+      caption: "you are my life, my soul, my everything",
+      rotation: 5
+    },
   ];
 
   return (
@@ -198,7 +220,7 @@ export default function Memories() {
               transition={{ duration: 3, repeat: Infinity }}
               className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-handwriting text-transparent bg-clip-text bg-gradient-to-r from-rose-600 via-pink-600 to-purple-600 leading-tight px-4"
             >
-              Our Memory Lane
+              Our Beautiful Memories
             </motion.h1>
 
             <motion.p
