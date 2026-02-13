@@ -76,7 +76,7 @@ export default function Memories() {
   const displayMemories = (memories && memories.length > 0) ? memories : [
     {
       id: 1,
-      url: "/images/anjali1.jpeg",
+      url: import.meta.env.BASE_URL + "images/anjali1.jpeg",
       type: "image",
       caption: "My Beautiful Princess",
       date: "Always",
@@ -84,7 +84,7 @@ export default function Memories() {
     },
     {
       id: 2,
-      url: "/images/delhimirror.jpeg",
+      url: import.meta.env.BASE_URL + "images/delhimirror.jpeg",
       type: "image",
       caption: "Unforgetable moments",
       date: "Delhi 2026",
@@ -92,7 +92,7 @@ export default function Memories() {
     },
     {
       id: 3,
-      url: "/images/diwali.jpeg",
+      url: import.meta.env.BASE_URL + "images/diwali.jpeg",
       type: "image",
       caption: "One of the endless proposals",
       date: "Diwali 2024",
@@ -100,7 +100,7 @@ export default function Memories() {
     },
     {
       id: 4,
-      url: "/images/kissingflowes.jpeg",
+      url: import.meta.env.BASE_URL + "images/kissingflowes.jpeg",
       type: "image",
       caption: "Romantic gateways",
       date: "Forever",
@@ -108,7 +108,7 @@ export default function Memories() {
     },
     {
       id: 5,
-      url: "/images/flowersmell.jpeg",
+      url: import.meta.env.BASE_URL + "images/flowersmell.jpeg",
       type: "image",
       caption: "Blossoming Love",
       date: "Your Birthday",
@@ -116,7 +116,7 @@ export default function Memories() {
     },
     {
       id: 6,
-      url: "/images/smile.jpeg",
+      url: import.meta.env.BASE_URL + "images/smile.jpeg",
       type: "image",
       caption: "The way you smiles",
       date: "",
@@ -124,7 +124,7 @@ export default function Memories() {
     },
     {
       id: 7,
-      url: "/images/diwalisang.jpeg",
+      url: import.meta.env.BASE_URL + "images/diwalisang.jpeg",
       type: "image",
       caption: "Your presence lights up my world",
       date: "",
@@ -132,14 +132,14 @@ export default function Memories() {
     },
     {
       id: 8,
-      url: "/images/beautiful.jpeg",
+      url: import.meta.env.BASE_URL + "images/beautiful.jpeg",
       type: "image",
       caption: "The most beautiful lady!!",
       rotation: 5
     },
     {
       id: 9,
-      url: "/images/fest.jpeg",
+      url: import.meta.env.BASE_URL + "images/fest.jpeg",
       type: "image",
       caption: "you are my life, my soul, my everything",
       rotation: 5
